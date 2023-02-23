@@ -1,0 +1,112 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.container > header{
+    background-image: url('../img/gucci.jpg');
+    background-size: 100% 150%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container > nav{
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>article{
+    width: 75%;
+    min-height: 400px;
+    background-color:white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float:right;
+}
+.container>footer{
+    border-top: 5px;
+    line-height: 50px;
+    background-color: gray;
+    text-align: center;
+    font-variant: small-caps;
+    clear:both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+.container>nav>a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+.container>article{
+text-align: center;
+font-size: xx-large;
+font-variant: small-caps;
+background-image: url('../img/Ảnh\ chụp\ màn\ hình\ 2023-01-15\ 204427.png');
+    background-size: 100% 100%;
+
+}
+.container>aside>ul{
+    line-height: 40px;
+    color: white;
+    font-variant: small-caps;
+}
+.logo>img{
+        width: 150px;
+    }
+    .logo{
+        padding:8px 16px;
+        line-height: 80px;
+    }
+    .logo, .menu{
+        width: 50%;
+        float: left;
+    }
+    .vmenu{
+padding: 0px;
+margin: 5px;
+list-style: none;
+border-radius: 3px;
+box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+background: url(../img/bullet-points-gif.gif)no-repeat 10px center;
+display: block;
+border-bottom: 1px dotted black;
+color: black;
+font-variant: small-caps;
+font-size: larger;
+text-decoration: none;
+padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+background:url(../img/head_arrows_right_animation_clipart.gif)no-repeat 10px center;
+border-bottom: 1px dotted while;
+background-color:black;
+color: white;
+font-weight: bold;
+}
+.cart {
+font-size: 15px;
+color: #fff;
+background: rgb(80, 77, 77);
+border: 1px solid transparent;
+border-radius: 10px;
+margin-left: 1rem;
+padding: 12px;
+cursor: pointer;
+}
+
+.cart:hover {
+border-color: #fff;
+}

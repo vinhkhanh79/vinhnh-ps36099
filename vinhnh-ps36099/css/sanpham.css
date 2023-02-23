@@ -1,0 +1,110 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+.container > header{
+    background-image: url('../img/gucci.jpg');
+    background-size: 100% 150%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container > nav{
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>article{
+    width: 50%;
+    min-height: 400px;
+    background-color:white;
+    float: left;
+}
+.container>footer{
+    border-top: 5px;
+    line-height: 50px;
+    background-color: gray;
+    text-align: center;
+    font-variant: small-caps;
+    clear:both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+.container>nav>a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+.container>aside>ul{
+    line-height: 40px;
+    color: white;
+    float: left;
+    font-variant: small-caps;
+}
+.logo>img{
+        width: 150px;
+    }
+    .logo{
+        padding:8px 16px;
+        line-height: 80px;
+    }
+    .logo, .menu{
+        width: 50%;
+        float: left;
+    }
+    .vmenu{
+padding: 0px;
+margin: 5px;
+list-style: none;
+border-radius: 3px;
+box-shadow: 0 0 2px gray;
+}
+.cart {
+font-size: 15px;
+color: #fff;
+background: rgb(80, 77, 77);
+border: 1px solid transparent;
+border-radius: 10px;
+margin-left: 1rem;
+padding: 12px;
+cursor: pointer;
+}
+
+.cart:hover {
+border-color: #fff;
+}
+.shopping {
+font-size: 15px;
+color: #fff;
+background: #070707;
+border: 1px solid transparent;
+border-radius: 10px;
+margin-left: 1rem;
+padding: 12px;
+cursor: pointer;
+}
+
+.shopping:hover {
+border-color: #fff;
+}
+.buy {
+font-size: 15px;
+color: #fff;
+background: #87878f;
+border: 1px solid transparent;
+border-radius: 10px;
+margin-left: 1rem;
+padding: 12px;
+cursor: pointer;
+}
+
+.buy:hover {
+border-color: #fff;
+}

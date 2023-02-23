@@ -1,0 +1,184 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.container > header{
+    background-image: url('../img/gucci.jpg');
+    background-size: 100% 150%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container > nav{
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>article{
+    width: 75%;
+    min-height: 400px;
+    background-color:white;
+    float: left;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float:right;
+}
+.container>footer{
+    border-top: 5px;
+    line-height: 50px;
+    background-color: gray;
+    text-align: center;
+    font-variant: small-caps;
+    clear:both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin:0 10px;
+}
+.container>nav>a:hover{
+    color: wheat;
+    text-decoration: underline;
+}
+.container>article{
+text-align: center;
+font-variant: small-caps;
+font-size: x-large;
+}
+.container>aside>ul{
+    line-height: 40px;
+    color: white;
+    font-variant: small-caps;
+}
+.logo>img{
+        width: 150px;
+    }
+    .logo{
+        padding:8px 16px;
+        line-height: 80px;
+    }
+    .logo, .menu{
+        width: 50%;
+        float: left;
+    }
+    .col-25{
+width:100%;
+float: left;
+}
+.prod{
+border-radius: 10px;
+box-shadow: 0 0 5px gray;
+margin: 5px;
+padding: 5px;
+text-align: center;
+position: relative;
+}
+.prod>.name{
+font-variant:small-caps;
+color:orangered;
+}
+.prog>.image{
+max-width: 98%;
+height: 100%;
+margin-bottom: 10px;
+}
+.prod>.price{
+position: absolute;
+left: 5px;
+bottom:5px;
+font-family: impact;
+font-size: 25px;
+color: orange;
+}
+.prod>.icons{
+position: absolute;
+right: 5px;
+bottom: 5px;
+width: 25px;
+}
+.prod>.icons img{
+width: 25px;
+height: 25px;
+}
+.prod>.new-icon{
+width: 30%;
+position: absolute;
+top: 10px;
+right: 0px;
+}
+.vmenu{
+padding: 0px;
+margin: 5px;
+list-style: none;
+border-radius: 3px;
+box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+background: url(../img/bullet-points-gif.gif)no-repeat 10px center;
+display: block;
+border-bottom: 1px dotted black;
+color: black;
+font-variant: small-caps;
+font-size: larger;
+text-decoration: none;
+padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+background:url(../img/head_arrows_right_animation_clipart.gif)no-repeat 10px center;
+border-bottom: 1px dotted while;
+background-color:black;
+color: white;
+font-weight: bold;
+}
+.box{
+margin: 5px auto;
+width: 1300px;
+height: 50px;
+}
+.container-1 input#search{
+width: 1300px;
+height: 50px;
+background: #2b303b;
+border: none;
+font-size: 10pt;
+float: left;
+color: #63717f;
+padding-left: 45px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.container-1 input#search::-webkit-input-placeholder {
+color: #65737e;
+}
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+color: #65737e;  
+}
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+color: #65737e;  
+}
+.container-1 input#search:-ms-input-placeholder {  
+color: #65737e;  
+}
+.cart {
+font-size: 15px;
+color: #fff;
+background: rgb(80, 77, 77);
+border: 1px solid transparent;
+border-radius: 10px;
+margin-left: 1rem;
+padding: 12px;
+cursor: pointer;
+}
+
+.cart:hover {
+border-color: #fff;
+}
